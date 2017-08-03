@@ -1,7 +1,7 @@
 # GRCrawler      
 - GRCrawler is an open source web crawler for C++, which is customizable and high-performance.     
 - Based on the Reactor pattern(epoll), supports Http 1.1(persistent connections, pipelining, chunked transfer-encoding).     
-- Using Bloom Filter, Fine-grained locking, ThreadPool, async DNS parse etc, imporve the performance.   
+- Using Bloom Filter, ThreadPool, async DNS parse etc, imporve the performance.   
 - Custom the feature by the configuration file for basic and add the DSO(dynamic shared object which is ".so" file) for advanced.
 
 
